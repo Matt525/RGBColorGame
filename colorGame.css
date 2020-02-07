@@ -3,35 +3,81 @@ body, html {
     background-color: #232323;
     margin: 0;
     padding: 0;
+    width: 100vw!important;
+    
 }
+@media(min-width: 768px){
 
-.square {
-    width: 30%;
-    height: auto;
-    padding-bottom: 30%;
-    margin: 1.66%;
-    float: left;
-    -webkit-border-radius: 20px;
-}
+                    .square {
+                        width: 30%;
+                        height: auto;
+                        padding-bottom: 30%;
+                        margin: 65px 0px 2px 33px;
+                        float: left;
+                        -webkit-border-radius: 20px;
+                    }
 
-#title {
-    color: #eee;
-    height: 150px;
-    padding-bottom: 0;
-    text-align: center;
-    background-color: steelblue;
-    padding: 0;
-    margin: 0;
+                    #title {
+                        color: #eee;
+                        height: 250px;
+                        padding-bottom: 0;
+                        text-align: center;
+                        background-color: steelblue;
+                        padding: 0;
+                        margin: 0;
+                        font-size: 60px;
+                    }
+
+                    #container {
+                        max-width: 1000px;
+                        margin: 0 auto;
+                    }
+
+                    #headerSection {
+                        background-color: #eee;
+                        color: white;
+                        font-size: 40px;
+                        text-align: center;
+                        font-family: 'Playfair Display', serif;
+                    }
+
+                    .selected {
+                        background-color: blue;
+                    }
+
+
+
+                    button {
+                        border: none;
+                        background: none;
+                        height: 100%;
+                        font-weight: 700;
+                        color: steelblue;
+                    }
+
+                    #statusDisplay {
+                        display: inline-block;
+                        width: 20%;
+                        font-weight: 800;
+                        color: #333;
+                    }
+
+                    button:hover {
+                        background-color: steelblue;
+                        color: white;
+                    }
+
 }
 
 #container {
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 #headerSection {
     background-color: #eee;
-    color: aqua height: 50px;
+    color: white;
+    font-size: 20px;
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
@@ -60,4 +106,25 @@ button {
 button:hover {
     background-color: steelblue;
     color: white;
+}
+
+
+#title {
+    color: #eee;
+    height: 150px;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: steelblue;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.square {
+    width: 35%;
+    height: auto;
+    padding-bottom: 30%;
+    margin: 25px 10px 0px 35px;
+    float: left;
+    -webkit-border-radius: 20px;
 }
