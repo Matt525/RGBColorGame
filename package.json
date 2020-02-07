@@ -1,0 +1,27 @@
+{
+  "homepage": "https://github.com/Matt525/RGBColorGame#readme",
+  "name": "rgbcolorgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "colorGame.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt525/RGBColorGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt525/RGBColorGame/issues"
+  },
+  "dependencies": {
+    "yarn": "^1.21.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
