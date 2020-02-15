@@ -19,7 +19,7 @@
     "url": "https://github.com/Matt525/RGBColorGame/issues"
   },
   "dependencies": {
-    "yarn": "^1.21.1"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
